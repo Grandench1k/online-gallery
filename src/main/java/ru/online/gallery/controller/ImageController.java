@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.multipart.MultipartFile;
 import ru.online.gallery.entity.Image;
-import ru.online.gallery.entity.responses.OtherExceptionsResponse;
 import ru.online.gallery.entity.responses.BadRequestResponse;
 import ru.online.gallery.entity.responses.NotFoundResponse;
+import ru.online.gallery.entity.responses.OtherExceptionsResponse;
 
 import java.io.IOException;
 import java.util.List;

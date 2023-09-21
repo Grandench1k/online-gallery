@@ -1,4 +1,4 @@
-package ru.online.gallery.exceptions;
+package ru.online.gallery.exception;
 
 public class UsernameNotFound extends RuntimeException {
     public UsernameNotFound(String message) {

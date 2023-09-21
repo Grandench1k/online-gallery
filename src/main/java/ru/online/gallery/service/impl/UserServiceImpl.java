@@ -8,7 +8,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import ru.online.gallery.entity.User;
-import ru.online.gallery.exceptions.*;
+import ru.online.gallery.exception.*;
 import ru.online.gallery.repository.UserRepository;
 import ru.online.gallery.s3.S3service;
 import ru.online.gallery.service.UserService;

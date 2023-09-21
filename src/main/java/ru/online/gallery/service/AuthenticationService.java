@@ -7,7 +7,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import ru.online.gallery.entity.AuthenticationRequest;
 import ru.online.gallery.entity.AuthenticationResponse;
 import ru.online.gallery.entity.RegisterRequest;
-import ru.online.gallery.exceptions.UserAlreadyDefined;
+import ru.online.gallery.exception.UserAlreadyDefined;
 
 import java.io.IOException;
 

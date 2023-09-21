@@ -1,4 +1,4 @@
-package ru.online.gallery.exceptions;
+package ru.online.gallery.exception;
 
 public class ImageNotFound extends RuntimeException {
     public ImageNotFound(String message) {

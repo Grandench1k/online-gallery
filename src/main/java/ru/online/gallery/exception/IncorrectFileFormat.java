@@ -1,4 +1,4 @@
-package ru.online.gallery.exceptions;
+package ru.online.gallery.exception;
 
 public class IncorrectFileFormat extends RuntimeException {
     public IncorrectFileFormat(String message) {

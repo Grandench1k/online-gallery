@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import ru.online.gallery.exceptions.UserNotEnabled;
+import ru.online.gallery.exception.UserNotEnabled;
 
 import java.time.LocalDateTime;
 import java.util.Collection;

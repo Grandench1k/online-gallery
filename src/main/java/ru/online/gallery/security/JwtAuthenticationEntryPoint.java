@@ -1,4 +1,4 @@
-package ru.online.gallery.security.impl;
+package ru.online.gallery.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;

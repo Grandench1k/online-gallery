@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import ru.online.gallery.entity.*;
-import ru.online.gallery.exceptions.*;
+import ru.online.gallery.exception.*;
 import ru.online.gallery.mail.EmailMessageBuilder;
 import ru.online.gallery.mail.impl.MailSenderImpl;
 import ru.online.gallery.repository.ConfirmationTokenRepository;

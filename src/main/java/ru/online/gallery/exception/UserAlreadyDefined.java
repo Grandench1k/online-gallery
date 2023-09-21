@@ -1,4 +1,4 @@
-package ru.online.gallery.exceptions;
+package ru.online.gallery.exception;
 
 public class UserAlreadyDefined extends RuntimeException {
     public UserAlreadyDefined(String message) {
