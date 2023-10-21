@@ -115,7 +115,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
                 user.getEmail()));
         mailSenderImpl.sendConfirmationEmail(
                 EmailMessageBuilder.BuildResetEmail(
-                        email, "http://localhost:8080/api/v1/auth/password/reset/" + token), email, "reset password");
+                        email, "http://localhost:8080/api/v1/auth/password/reset/" + token), email, "reset password.");
         return "the password recovery link has been successfully sent to this email.";
     }
 
